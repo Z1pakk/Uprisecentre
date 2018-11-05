@@ -185,7 +185,7 @@ button:focus {
         width: 50px;
         border: 0px;
         height: 50px;
-        background: black;
+        background: #01A3D4;
         color: #fff;
         text-align: center;
         -webkit-border-radius: 50%;
@@ -279,8 +279,10 @@ button:focus {
     .header_area .navbar .nav .nav-item.submenu ul {
         position: absolute;
         top: 120%;
-        left: 0px;
-        min-width: 200px;
+        width:auto;
+        left:auto;
+        right:0;
+        float:right;
         text-align: left;
         opacity: 0;
         transition: all 300ms ease-in;
