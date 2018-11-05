@@ -193,6 +193,9 @@
   <data name="Form5" xml:space="preserve">
     <value>Отправить сообщение</value>
   </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Галерея</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Главная</value>
   </data>
@@ -223,6 +226,22 @@
   <data name="Teachers" xml:space="preserve">
     <value>Наши преподаватели</value>
   </data>
+  <data name="Team" xml:space="preserve">
+    <value>Наша команда</value>
+  </data>
+  <data name="TextCenter" xml:space="preserve">
+    <value>это - сеть образовательных центров, которая включает в себя различные направления образования в соответствии с требованиями современного мира. На данный момент мы присутствуем в 9 городах, но наша количество &lt;strong&gt; постоянно динамично растет. &lt;/strong&gt;
+     Девиз нашей сети - "Давайте расти вместе! Ваши возможности - безграничны.
+     Наша цель - поднятие общего образовательного и культурного уровня детей и взрослых в регионах. А также &lt;strong&gt; научить использовать современные инструменты &lt;/strong&gt; в достижении своей цели. "
+
+&lt;/strong&gt; Когда учиться интересно и комфортно, то и результаты обучения положительные и видны! &lt;/strong&gt;</value>
+  </data>
+  <data name="TextCenter2" xml:space="preserve">
+    <value>&lt;strong&gt; Когда учиться интересно и комфортно, то и результаты обучения положительные и видны! &lt;/strong&gt;</value>
+  </data>
+  <data name="TitleAbout1" xml:space="preserve">
+    <value>площадка альтернативного образования для тех, кто хочет идти в ногу с требованиями современного мира.</value>
+  </data>
   <data name="TitleContact1" xml:space="preserve">
     <value>Ровенская область</value>
   </data>
@@ -234,5 +253,8 @@
   </data>
   <data name="TitleCourses1" xml:space="preserve">
     <value>Наши курсы</value>
+  </data>
+  <data name="TitleTeam1" xml:space="preserve">
+    <value>Команда профессионалов, которые добросовестно выполняют свою работу. Имеют большой опыт в работе с детьми да взрослыми.</value>
   </data>
 </root>

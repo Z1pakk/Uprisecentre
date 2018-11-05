@@ -7,7 +7,7 @@ namespace Uprise.Utils
 {
     public static class LocalizationHelper
     {
-        private readonly static IList<string> _suportedLocalesList = new List<string> { "en", "ru", "uk" };
+        private readonly static IList<string> _suportedLocalesList = new List<string> { "uk", "ru", "en" };
         public static IList<string> GetSupportedLocales()
         {
             return _suportedLocalesList;

@@ -193,6 +193,9 @@
   <data name="Form5" xml:space="preserve">
     <value>Send message</value>
   </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Home</value>
   </data>
@@ -223,6 +226,22 @@
   <data name="Teachers" xml:space="preserve">
     <value>Our Teachers</value>
   </data>
+  <data name="Team" xml:space="preserve">
+    <value>Our team</value>
+  </data>
+  <data name="TextCenter" xml:space="preserve">
+    <value>it is a network of educational centers, which includes different directions of education in accordance with the requirements of the modern world. We are currently present in 9 cities, but our number &lt;strong&gt; is constantly growing dynamically. &lt;/strong&gt;
+     The motto of our network is "Let's grow together! Your opportunities are endless.
+     Our goal is to raise the general educational and cultural level of children and adults in the regions. And also &lt;strong&gt; teach you to use modern tools &lt;/strong&gt; to achieve your goal. "
+
+&lt;/strong&gt; When learning exciting and comfortable, the learning outcomes are positive and visible! &lt;/ strong&gt;</value>
+  </data>
+  <data name="TextCenter2" xml:space="preserve">
+    <value>&lt;strong&gt; When it is interesting and comfortable to learn, then the learning outcomes are positive and visible! &lt;/strong&gt;</value>
+  </data>
+  <data name="TitleAbout1" xml:space="preserve">
+    <value>an alternative education platform for those who want to keep pace with the demands of the modern world.</value>
+  </data>
   <data name="TitleContact1" xml:space="preserve">
     <value>Rivne region</value>
   </data>
@@ -234,5 +253,8 @@
   </data>
   <data name="TitleCourses1" xml:space="preserve">
     <value>Our courses</value>
+  </data>
+  <data name="TitleTeam1" xml:space="preserve">
+    <value>A team of professionals who faithfully perform their work. Have a great experience in working with children and adults.</value>
   </data>
 </root>

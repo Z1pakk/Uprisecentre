@@ -10,11 +10,11 @@
         <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
         <div class="container">
             <div class="banner_content text-center">
-                <h2>Про нас</h2>
+                <h2>@Uprise.Resource.About</h2>
 
                 <div class="page_link">
-                    <a href="@Url.Action("Index")">Головна</a>
-                    <a href="@Url.Action("About")">Про нас</a>
+                    <a href="@Url.Action("Index")">@Uprise.Resource.Home</a>
+                    <a href="@Url.Action("About")">@Uprise.Resource.About</a>
                 </div>
             </div>
         </div>
@@ -37,13 +37,13 @@
                         Uprise Centre
                     </h2>
                     <p style="font-size:22px;text-align:left;">
-                        Uprise Centre – майданчик альтернативної освіти для тих, хто хоче йти в ногу із вимогами сучасного світу.
+                        Uprise Centre – @Uprise.Resource.TitleAbout1
                     </p>
                 </div>
                 <div class="about_details" data-aos="fade-up">
-                    <p style="font-size:20px;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Uprise Centre </strong> це - мережа освітніх центрів, яка включає в себе різні напрямки освіти відповідно до вимог сучасного світу. На даний момент ми присутні у 9 містах, але наша кількість <strong>постійно динамічно зростає</strong> .<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Девіз нашої мережі - "Давайте зростати разом! Ваші можливості - безмежні.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Наша мета - підняття загального освітнього та культурного рівня дітей та дорослих в регіонах. А також <strong>навчити використовувати сучасні інструменти</strong> в досягненні своєї мети."</p>
+                    <p style="font-size:20px;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Uprise Centre </strong> @Html.Raw(@Uprise.Resource.TextCenter)</p>
                     <p></p>
-                    <p class="text-center" style="font-size:20px;"><strong>Коли вчитися цікаво та комфортно, то й результати навчання позитивні та видні!</strong></p>
+                    <p class="text-center" style="font-size:20px;">@Html.Raw(@Uprise.Resource.TextCenter2)</p>
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@
 </section>
 <section class="gallery_area container">
     <div class="container section-top-border">
-        <h3 class="title_color" data-aos="fade-up">Галерея</h3>
+        <h3 class="title_color" data-aos="fade-up">@Uprise.Resource.Gallery</h3>
         <div class="row gallery-item">
             <div class="col-md-3" data-aos="fade-up">
                 <a href="../../Images/SiteImages/gallery/g1.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(../../Images/SiteImages/gallery/g1.jpg);"></div></a>
@@ -103,8 +103,8 @@
 <section class="team_area p_120">
     <div class="container">
         <div class="main_title" data-aos="fade-up">
-            <h2>Наша команда</h2>
-            <p>Команда професіоналів, які сумлінно виконують свою роботу. Мають великий досвід у роботі з дітьми да дорослими.</p>
+            <h2>@Uprise.Resource.Team</h2>
+            <p>@Uprise.Resource.TitleTeam1</p>
         </div>
         <div class="row team_inner" data-aos="fade-up">
             <div class="col-lg-3 col-sm-6">
