@@ -287,6 +287,15 @@ namespace Uprise {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Галерея.
+        /// </summary>
+        public static string Gallery {
+            get {
+                return ResourceManager.GetString("Gallery", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Головна.
         /// </summary>
         public static string Home {
@@ -377,6 +386,46 @@ namespace Uprise {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Наша команда.
+        /// </summary>
+        public static string Team {
+            get {
+                return ResourceManager.GetString("Team", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to це - мережа освітніх центрів, яка включає в себе різні напрямки освіти відповідно до вимог сучасного світу. На даний момент ми присутні у 9 містах, але наша кількість &lt;strong&gt;постійно динамічно зростає .&lt;/strong&gt;
+        ///     Девіз нашої мережі - &quot;Давайте зростати разом! Ваші можливості - безмежні.
+        ///     Наша мета - підняття загального освітнього та культурного рівня дітей та дорослих в регіонах. А також &lt;strong&gt;навчити використовувати сучасні інструменти&lt;/strong&gt; в досягненні своєї мети.&quot;
+        ///
+        ///Коли вчитися цікаво т [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string TextCenter {
+            get {
+                return ResourceManager.GetString("TextCenter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;strong&gt;Коли вчитися цікаво та комфортно, то й результати навчання позитивні та видні!&lt;/strong&gt;.
+        /// </summary>
+        public static string TextCenter2 {
+            get {
+                return ResourceManager.GetString("TextCenter2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to майданчик альтернативної освіти для тих, хто хоче йти в ногу із вимогами сучасного світу..
+        /// </summary>
+        public static string TitleAbout1 {
+            get {
+                return ResourceManager.GetString("TitleAbout1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Рівненська область.
         /// </summary>
         public static string TitleContact1 {
@@ -409,6 +458,15 @@ namespace Uprise {
         public static string TitleCourses1 {
             get {
                 return ResourceManager.GetString("TitleCourses1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Команда професіоналів, які сумлінно виконують свою роботу. Мають великий досвід у роботі з дітьми да дорослими..
+        /// </summary>
+        public static string TitleTeam1 {
+            get {
+                return ResourceManager.GetString("TitleTeam1", resourceCulture);
             }
         }
     }

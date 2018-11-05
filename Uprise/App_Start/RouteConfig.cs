@@ -16,7 +16,7 @@ namespace Uprise
             routes.MapRoute(
                name: "DefaultLocalization",
                url: "{lang}/{controller}/{action}/{id}",
-               defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional, lang = "en" }
+               defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional, lang = "uk" }
            );
 
             routes.MapRoute(

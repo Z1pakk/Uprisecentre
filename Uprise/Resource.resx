@@ -193,6 +193,9 @@
   <data name="Form5" xml:space="preserve">
     <value>Відправити повідомлення</value>
   </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Галерея</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Головна</value>
   </data>
@@ -223,6 +226,22 @@
   <data name="Teachers" xml:space="preserve">
     <value>Наші викладачі</value>
   </data>
+  <data name="Team" xml:space="preserve">
+    <value>Наша команда</value>
+  </data>
+  <data name="TextCenter" xml:space="preserve">
+    <value>це - мережа освітніх центрів, яка включає в себе різні напрямки освіти відповідно до вимог сучасного світу. На даний момент ми присутні у 9 містах, але наша кількість &lt;strong&gt;постійно динамічно зростає .&lt;/strong&gt;
+     Девіз нашої мережі - "Давайте зростати разом! Ваші можливості - безмежні.
+     Наша мета - підняття загального освітнього та культурного рівня дітей та дорослих в регіонах. А також &lt;strong&gt;навчити використовувати сучасні інструменти&lt;/strong&gt; в досягненні своєї мети."
+
+Коли вчитися цікаво та комфортно, то й результати навчання позитивні та видні!</value>
+  </data>
+  <data name="TextCenter2" xml:space="preserve">
+    <value>&lt;strong&gt;Коли вчитися цікаво та комфортно, то й результати навчання позитивні та видні!&lt;/strong&gt;</value>
+  </data>
+  <data name="TitleAbout1" xml:space="preserve">
+    <value>майданчик альтернативної освіти для тих, хто хоче йти в ногу із вимогами сучасного світу.</value>
+  </data>
   <data name="TitleContact1" xml:space="preserve">
     <value>Рівненська область</value>
   </data>
@@ -234,5 +253,8 @@
   </data>
   <data name="TitleCourses1" xml:space="preserve">
     <value>Наші курси</value>
+  </data>
+  <data name="TitleTeam1" xml:space="preserve">
+    <value>Команда професіоналів, які сумлінно виконують свою роботу. Мають великий досвід у роботі з дітьми да дорослими.</value>
   </data>
 </root>
