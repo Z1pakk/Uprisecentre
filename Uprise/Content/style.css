@@ -286,6 +286,7 @@ button:focus {
         position: absolute;
         float:right;
         right: 0px;
+        left:auto;
         text-align: left;
         opacity: 0;
         transition: all 300ms ease-in;
