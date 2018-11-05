@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="~/Images/SiteImages/icon.png" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    @helper langSelector()
+    {
+        /**/
+
+        string curLang = "en";
+        if (this.ViewContext.RouteData.Values["lang"] != null)
+        {
+            curLang = this.ViewContext.RouteData.Values["lang"].ToString();
+        }
+        var enabledLangsList = Uprise.Utils.LocalizationHelper.GetSupportedLocales();
+        var targetPath = string.Format("/{0}/{1}{2}",
+            ViewContext.RouteData.Values["controller"].ToString(),
+            ViewContext.RouteData.Values["action"].ToString(),
+            Request.Url.Query);
+        var hostRoot = string.Format("{0}://{1}", Request.Url.Scheme, Request.Url.Authority);
+        var targetUrlMask = string.Format("{0}/{{0}}{1}", hostRoot, targetPath);
+        <li class="nav-item submenu dropdown" style="margin-left: 15px;">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                @curLang
+                <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                @foreach (var lang in enabledLangsList)
+                {
+                    <li class="nav-item"><a  class="nav-link" href="@(string.Format(targetUrlMask, lang))">@lang</a></li>
+                }
+            </ul>
+        </li>
+    }
+
+</head>
+<body>
+    <header class="header_area">
+        <div class="top_menu row m0">
+            <div class="container">
+                <div class="float-left">
+                    <ul class="list header_social">
+                        <li><a href="https://www.facebook.com/uprisecentre1" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/uprisecentre/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="float-right">
+
+                    <a class="dn_btn" href="tel:+380962945631">+380962945631</a>
+                    <a class="dn_btn" href="tel:+380505570224">+380505570224</a>
+                    <a class="dn_btn" href="mailto:tnb-ukr1@ukr.net">uprisecenter@gmail.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand logo_h" href="@Url.Action("Index")"><img src="~/Images/SiteImages/logo.png" class="imglogo" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item" id="btnHome"><a class="nav-link" href="@Url.Action("Index")">@Uprise.Resource.Home</a></li>
+                            @*<li class="nav-item" id="btnHome"><a class="nav-link" href="@Url.Action("News")">Новини</a></li>*@
+                            <li class="nav-item" id="btnAbout"><a class="nav-link" href="@Url.Action("About")">@Uprise.Resource.About</a></li>
+                            <li class="nav-item" id="btnCourses"><a class="nav-link" href="@Url.Action("Courses")">@Uprise.Resource.Courses</a></li>
+                            <li class="nav-item" id="btnContact"><a class="nav-link" href="@Url.Action("Contact")">@Uprise.Resource.Contact</a></li>
+                           
+                            @langSelector()
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    @RenderBody()
+    <footer class="footer-area" style="padding-bottom:70px;">
+        <div class="container" data-aos="fade-up">
+            <div class="row footer-bottom d-flex justify-content-between align-items-center">
+                <p class="col-lg-8 col-md-8 footer-text m-0">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    @DateTime.Now.Year @Uprise.Resource.Footer1 <i class="fa fa-heart-o" aria-hidden="true"></i> @Uprise.Resource.Footer2
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+                <div class="col-lg-4 col-md-4 footer-social">
+                    <a href="https://www.facebook.com/uprisecentre1" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/uprisecentre/" target="_blank"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="gototop js-top">
+        <button class="js-gotop"><i class="fa fa-lg fa-arrow-up" aria-hidden="true"></i></button>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/scripts")
+    @RenderSection("scripts", required: false)
+    @RenderSection("styles", required: false)
+    <script>
+        $(function () {
+            AOS.init({ once: true, duration: 600 });
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 200) {
+                    $('.gototop').addClass("active");
+                } else {
+                    $('.gototop').removeClass("active");
+                }
+            });
+
+            //Click event to scroll to top
+            $('.js-gotop').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 400);
+                $('.gototop').removeClass("active");
+                return false;
+            });
+        });
+        $(".navbar-toggler").click(function () {
+            if ($("#navbarSupportedContent").hasClass("show")) {
+                $("#navbarSupportedContent").removeClass("show");
+            }
+            else {
+                $("#navbarSupportedContent").addClass("show");
+            }
+        });
+    </script>
+</body>
+</html>

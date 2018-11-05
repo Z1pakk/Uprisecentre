@@ -1,0 +1,316 @@
+﻿@{
+    ViewBag.Title = "Uprise Centre - Головна";
+}
+
+<!--================Home Banner Area =================-->
+<section class="home_banner_area">
+    <div class="banner_inner d-flex align-items-center ">
+        <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+        <div class="container">
+            <div class="banner_content text-center">
+                <h3>@Uprise.Resource.HomeTitle</h3>
+                <p><strong>Uprise Centre</strong> - @Uprise.Resource.HomeTitle2</p>
+                <a class="main_btn" href="@Url.Action("Courses")">@Uprise.Resource.HomeButton</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Home Banner Area =================-->
+<!--================Finance Area =================-->
+<section class="finance_area">
+    <div class="container">
+        <div class="finance_inner row">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up">
+                <div class="finance_item">
+                    <div class="media">
+                        <div class="d-flex">
+                            <img src="~/Images/SiteImages/language (1).png" />
+                        </div>
+                        <div class="media-body">
+                            <h5>@Uprise.Resource.English</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="finance_item">
+                    <div class="media" >
+                        <div class="d-flex">
+                            <img src="~/Images/SiteImages/desktop.png" />
+                        </div>
+                        <div class="media-body">
+                            <h5 class="animatable fadeInUp">@Uprise.Resource.ProgrammingAndDesign</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="finance_item">
+                    <div class="media">
+                        <div class="d-flex">
+                            <img src="~/Images/SiteImages/blackboard.png" />
+                        </div>
+                        <div class="media-body">
+                            <h5>@Uprise.Resource.PreparSchool</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="finance_item">
+                    <div class="media">
+                        <div class="d-flex">
+
+                            <img src="~/Images/SiteImages/palette.png" />
+
+                        </div>
+                        <div class="media-body">
+                            <h5>@Uprise.Resource.ArtSchool</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--================End Finance Area =================-->
+<!--================Courses Area =================-->
+<section class="courses_area p_120">
+    <div class="container">
+        <div class="main_title" >
+            <h2 class="animatable fadeInUp" data-aos="fade-up">@Uprise.Resource.AnsTeach</h2>
+            <p style="font-size:18px;" data-aos="fade-up">Uprise Centre - @Uprise.Resource.HomeTitle3</p>
+        </div>
+        <div class="row courses_inner">
+            <div class="col-lg-9">
+                <div class="grid_inner">
+                    <div class="grid_item wd55" data-aos="fade-up">
+                        <div class="courses_item">
+                            <img src="~/Images/SiteImages/courses/course-1.jpg" alt="">
+                            <div class="hover_text">
+                                <a class="cat" href="@Url.Action("English")">@Uprise.Resource.FistFree</a>
+                                <a href="@Url.Action("English")"><h4>@Uprise.Resource.English</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid_item wd44" data-aos="fade-up" data-aos-delay="200">
+                        <div class="courses_item">
+                            <img src="~/Images/SiteImages/courses/course-2.jpg" alt="">
+                            <div class="hover_text">
+                                <a href="@Url.Action("ProgADesign")"><h4>@Uprise.Resource.ProgrammingAndDesign</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid_item wd44" data-aos="fade-up" data-aos-delay="400">
+                        <div class="courses_item">
+                            <img src="~/Images/SiteImages/courses/course-4.jpg" alt="">
+                            <div class="hover_text">
+                                <a href="@Url.Action("PreparToSchool")"><h4>@Uprise.Resource.PreparSchool</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid_item wd55" data-aos="fade-up" data-aos-delay="600">
+                        <div class="courses_item">
+                            <img src="~/Images/SiteImages/courses/course-5.jpg" alt="">
+                            <div class="hover_text">
+                                <a href="@Url.Action("ArtSchool")"><h4>@Uprise.Resource.ArtSchool</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3" data-aos="fade-up"  data-aos-delay="800">
+                <div class="course_item">
+                    <img src="~/Images/SiteImages/courses/course-3.jpg" alt="">
+                    <div class="hover_text">
+                        <a href="@Url.Action("Smartkidsclub")"><h4>Smart Kids Club</h4></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Courses Area =================-->
+<!--================Team Area =================-->
+<section class="team_area p_120">
+    <div class="container">
+        <div class="main_title" data-aos="fade-up">
+            <h2>@Uprise.Resource.Teachers</h2>
+            <p style="font-size:18px;">@Uprise.Resource.HomeTitle4</p>
+        </div>
+        <div class="row team_inner"  data-aos="fade-up">
+            <div class="col-lg-3 col-sm-6">
+                <div class="team_item">
+                    <div class="team_img">
+                        <img class="rounded-circle" src="~/Images/SiteImages/team/team-1.jpg" alt="">
+                        <div class="hover">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="team_name">
+                        <h4>Ethel Davis</h4>
+                        <p>Managing Director (Sales)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="team_item">
+                    <div class="team_img">
+                        <img class="rounded-circle" src="~/Images/SiteImages/team/team-2.jpg" alt="">
+                        <div class="hover">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="team_name">
+                        <h4>Ethel Davis</h4>
+                        <p>Managing Director (Sales)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6" >
+                <div class="team_item">
+                    <div class="team_img">
+                        <img class="rounded-circle" src="~/Images/SiteImages/team/team-3.jpg" alt="">
+                        <div class="hover">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="team_name">
+                        <h4>Ethel Davis</h4>
+                        <p>Managing Director (Sales)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6" >
+                <div class="team_item">
+                    <div class="team_img">
+                        <img class="rounded-circle" src="~/Images/SiteImages/team/team-4.jpg" alt="">
+                        <div class="hover">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="team_name">
+                        <h4>Ethel Davis</h4>
+                        <p>Managing Director (Sales)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Team Area =================-->
+<!--================Testimonials Area =================-->
+<section class="testimonials_area p_120">
+    <div class="container">
+        <div class="testi_slider owl-carousel"  data-aos="fade-up">
+            <div class="item">
+                <div class="testi_item">
+                    <img src="~/Images/SiteImages/testimonials/testi-3.png" alt="">
+                    <h4>Fannie Rowe</h4>
+                    <ul class="list">
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                    </ul>
+                    <p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="testi_item">
+                    <img src="~/Images/SiteImages/testimonials/testi-3.png" alt="">
+                    <h4>Fannie Rowe</h4>
+                    <ul class="list">
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                    </ul>
+                    <p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="testi_item">
+                    <img src="~/Images/SiteImages/testimonials/testi-3.png" alt="">
+                    <h4>Fannie Rowe</h4>
+                    <ul class="list">
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                    </ul>
+                    <p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Testimonials Area =================-->
+
+<!--================Latest Blog Area =================-->
+@*<section class="latest_blog_area p_120">
+    <div class="container">
+        <div class="main_title">
+            <h2>Latest Posts From Blog</h2>
+            <p>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station.</p>
+        </div>
+        <div class="row latest_blog_inner">
+            <div class="col-lg-3 col-md-6">
+                <div class="l_blog_item">
+                    <img class="img-fluid" src="~/Images/SiteImages/latest-blog/l-blog-1.jpg" alt="">
+                    <a class="date" href="#">25 October, 2018  |  By Mark Wiens</a>
+                    <a href="single-blog.html"><h4>Addiction When Gambling Becomes A Problem</h4></a>
+                    <p>Computers have become ubiquitous in almost every facet of our lives. At work, desk jockeys spend hours in front of their desktops, while delivery</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="l_blog_item">
+                    <img class="img-fluid" src="~/Images/SiteImages/latest-blog/l-blog-2.jpg" alt="">
+                    <a class="date" href="#">25 October, 2018  |  By Mark Wiens</a>
+                    <a href="single-blog.html"><h4>Addiction When Gambling Becomes A Problem</h4></a>
+                    <p>Computers have become ubiquitous in almost every facet of our lives. At work, desk jockeys spend hours in front of their desktops, while delivery</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="l_blog_item">
+                    <img class="img-fluid" src="~/Images/SiteImages/latest-blog/l-blog-3.jpg" alt="">
+                    <a class="date" href="#">25 October, 2018  |  By Mark Wiens</a>
+                    <a href="single-blog.html"><h4>Addiction When Gambling Becomes A Problem</h4></a>
+                    <p>Computers have become ubiquitous in almost every facet of our lives. At work, desk jockeys spend hours in front of their desktops, while delivery</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="l_blog_item">
+                    <img class="img-fluid" src="~/Images/SiteImages/latest-blog/l-blog-4.jpg" alt="">
+                    <a class="date" href="#">25 October, 2018  |  By Mark Wiens</a>
+                    <a href="single-blog.html"><h4>Addiction When Gambling Becomes A Problem</h4></a>
+                    <p>Computers have become ubiquitous in almost every facet of our lives. At work, desk jockeys spend hours in front of their desktops, while delivery</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>*@
+<!--================End Latest Blog Area =================-->
+@section scripts{
+<script>    
+    $(function () {
+        $("#btnHome").addClass("active");
+        $("#btnAbout").removeClass("active");
+        $("#btnCourses").removeClass("active");
+        $("#btnContact").removeClass("active");
+    });
+    </script>
+}

@@ -1,0 +1,142 @@
+﻿
+@{
+    ViewBag.Title = "Uprise Centre - Курси";
+}
+<!--================Home Banner Area =================-->
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+        <div class="container">
+            <div class="banner_content text-center">
+                <h2>@Uprise.Resource.Courses</h2>
+                <div class="page_link">
+                    <a href="@Url.Action("Index")">@Uprise.Resource.Home</a>
+                    <a href="@Url.Action("Courses")">@Uprise.Resource.Courses</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Home Banner Area =================-->
+<!--================Courses Area =================-->
+<section class="courses_area p_120">
+    <div class="container">
+        <div class="main_title" data-aos="fade-up">
+            <h2>@Uprise.Resource.TitleCourses1</h2>
+            <p style="font-size:18px;" data-aos="fade-up">Uprise Centre - @Uprise.Resource.HomeTitle3</p>
+        </div>
+        <div class="row courses_inner">
+            <div class="col-lg-9">
+                <div class="grid_inner">
+                    <div class="grid_item wd55" data-aos="fade-up">
+                        <div class="courses_item">
+                            <img src="~/Images/SiteImages/courses/course-1.jpg" alt="">
+                            <div class="hover_text">
+                                <a class="cat" href="@Url.Action("English")">@Uprise.Resource.FistFree</a>
+                                <a href="@Url.Action("English")"><h4>@Uprise.Resource.English</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid_item wd44" data-aos="fade-up" data-aos-delay="200">
+                        <div class="courses_item">
+                            <img src="~/Images/SiteImages/courses/course-2.jpg" alt="">
+                            <div class="hover_text">
+                                <a href="@Url.Action("ProgADesign")"><h4>@Uprise.Resource.ProgrammingAndDesign</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid_item wd44" data-aos="fade-up" data-aos-delay="400">
+                        <div class="courses_item">
+                            <img src="~/Images/SiteImages/courses/course-4.jpg" alt="">
+                            <div class="hover_text">
+                                <a href="@Url.Action("PreparToSchool")"><h4>@Uprise.Resource.PreparSchool</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid_item wd55" data-aos="fade-up" data-aos-delay="600">
+                        <div class="courses_item">
+                            <img src="~/Images/SiteImages/courses/course-5.jpg" alt="">
+                            <div class="hover_text">
+                                <a href="@Url.Action("ArtSchool")"><h4>@Uprise.Resource.ArtSchool</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3" data-aos="fade-up" data-aos-delay="800">
+                <div class="course_item">
+                    <img src="~/Images/SiteImages/courses/course-3.jpg" alt="">
+                    <div class="hover_text">
+                        <a href="@Url.Action("Smartkidsclub")"><h4>Smart Kids Club</h4></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Courses Area =================-->
+<!--================Pagkages Area =================-->
+@*<section class="packages_area p_120">
+    <div class="container">
+        <div class="row packages_inner">
+            <div class="col-lg-4">
+                <div class="packages_text">
+                    <h3>Choose <br />Course Packages</h3>
+                    <p>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="packages_item">
+                    <div class="pack_head">
+                        <i class="lnr lnr-graduation-hat"></i>
+                        <h3>Premium</h3>
+                        <p>For the individuals</p>
+                    </div>
+                    <div class="pack_body">
+                        <ul class="list">
+                            <li><a href="#">Secure Online Transfer</a></li>
+                            <li><a href="#">Unlimited Styles for interface</a></li>
+                            <li><a href="#">Reliable Customer Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="pack_footer">
+                        <h4>£399.00</h4>
+                        <a class="main_btn" href="#">Join Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="packages_item">
+                    <div class="pack_head">
+                        <i class="lnr lnr-diamond"></i>
+                        <h3>Exclusive</h3>
+                        <p>For the individuals</p>
+                    </div>
+                    <div class="pack_body">
+                        <ul class="list">
+                            <li><a href="#">Secure Online Transfer</a></li>
+                            <li><a href="#">Unlimited Styles for interface</a></li>
+                            <li><a href="#">Reliable Customer Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="pack_footer">
+                        <h4>£399.00</h4>
+                        <a class="main_btn" href="#">Join Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>*@
+<!--================End Pagkages Area =================-->
+
+@section scripts{
+    <script>
+        $(function () {
+            $("#btnHome").removeClass("active");
+            $("#btnAbout").removeClass("active");
+            $("#btnCourses").addClass("active");
+            $("#btnContact").removeClass("active");
+        });
+    </script>
+}

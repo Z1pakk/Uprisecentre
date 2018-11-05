@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AnsTeach" xml:space="preserve">
+    <value>What do we teach?</value>
+  </data>
+  <data name="ArtSchool" xml:space="preserve">
+    <value>Art-school</value>
+  </data>
+  <data name="City1" xml:space="preserve">
+    <value>m.Rivne street D.Galitskogo, 19, office 910
+(9th floor)</value>
+  </data>
+  <data name="City2" xml:space="preserve">
+    <value>m.Sarni street Shiroka, 1 (2nd floor)</value>
+  </data>
+  <data name="City3" xml:space="preserve">
+    <value>Klesiv village, Tchaikovsky St., 1</value>
+  </data>
+  <data name="City4" xml:space="preserve">
+    <value>m.Rokitne street Shevchenko, 1 (dentistry room, 2nd floor)</value>
+  </data>
+  <data name="City5" xml:space="preserve">
+    <value>Volodymyrets street Soborna 1 (cafe "Chile", 3rd floor)</value>
+  </data>
+  <data name="City6" xml:space="preserve">
+    <value>Dubrovytsia street, Poshtova, 2 (entrance from the side, 2nd floor)</value>
+  </data>
+  <data name="City7" xml:space="preserve">
+    <value>Varas district, Varas district, 43</value>
+  </data>
+  <data name="City8" xml:space="preserve">
+    <value>Berezne street Andriyevskaya, 15a (3rd floor)</value>
+  </data>
+  <data name="City9" xml:space="preserve">
+    <value>Olevsk street Privokzalnaya, 8 (Life House, 3rd floor)</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Courses" xml:space="preserve">
+    <value>Courses</value>
+  </data>
+  <data name="Data1" xml:space="preserve">
+    <value>From Mon-Fri 9:00 a.m to 19:00 p.m</value>
+  </data>
+  <data name="Data2" xml:space="preserve">
+    <value>Saturday from 10:00 a.m to 15:00 p.m</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="FistFree" xml:space="preserve">
+    <value>The first lesson is free</value>
+  </data>
+  <data name="Footer1" xml:space="preserve">
+    <value>All rights reserved This site was created with</value>
+  </data>
+  <data name="Footer2" xml:space="preserve">
+    <value>team VlAndr</value>
+  </data>
+  <data name="Form1" xml:space="preserve">
+    <value>Enter your name and surname</value>
+  </data>
+  <data name="Form2" xml:space="preserve">
+    <value>Enter your mail</value>
+  </data>
+  <data name="Form3" xml:space="preserve">
+    <value>Enter the subject of the message</value>
+  </data>
+  <data name="Form4" xml:space="preserve">
+    <value>Message text</value>
+  </data>
+  <data name="Form5" xml:space="preserve">
+    <value>Send message</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="HomeButton" xml:space="preserve">
+    <value>Learn more</value>
+  </data>
+  <data name="HomeTitle" xml:space="preserve">
+    <value>We guarantee quality and exciting training!</value>
+  </data>
+  <data name="HomeTitle2" xml:space="preserve">
+    <value>This is a platform for alternative education that will allow students to develop a variety of practical skills and creative thinking.</value>
+  </data>
+  <data name="HomeTitle3" xml:space="preserve">
+    <value>it is a versatile center that includes different directions of education in accordance with the requirements of the modern world.</value>
+  </data>
+  <data name="HomeTitle4" xml:space="preserve">
+    <value>Our teachers are a young team of highly skilled professionals who love and live their work.</value>
+  </data>
+  <data name="PreparSchool" xml:space="preserve">
+    <value>Preparing for school</value>
+  </data>
+  <data name="ProgrammingAndDesign" xml:space="preserve">
+    <value>Programming &amp; Design</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>Send us a letter at any time</value>
+  </data>
+  <data name="Teachers" xml:space="preserve">
+    <value>Our Teachers</value>
+  </data>
+  <data name="TitleContact1" xml:space="preserve">
+    <value>Rivne region</value>
+  </data>
+  <data name="TitleContact2" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="TitleContact3" xml:space="preserve">
+    <value>Zhytomyr region</value>
+  </data>
+  <data name="TitleCourses1" xml:space="preserve">
+    <value>Our courses</value>
+  </data>
+</root>
