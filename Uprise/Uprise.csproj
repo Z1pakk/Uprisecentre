@@ -355,6 +355,9 @@
     <Content Include="Images\SiteImages\elements\user1.png" />
     <Content Include="Images\SiteImages\elements\user2.png" />
     <Content Include="Images\SiteImages\favicon.png" />
+    <Content Include="Images\SiteImages\flags\english.png" />
+    <Content Include="Images\SiteImages\flags\russia.png" />
+    <Content Include="Images\SiteImages\flags\ukraine.png" />
     <Content Include="Images\SiteImages\gallery\aboutimg1.jpg" />
     <Content Include="Images\SiteImages\gallery\aboutimg2.jpg" />
     <Content Include="Images\SiteImages\gallery\g1.jpg" />

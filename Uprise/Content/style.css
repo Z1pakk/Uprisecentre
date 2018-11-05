@@ -185,7 +185,7 @@ button:focus {
         width: 50px;
         border: 0px;
         height: 50px;
-        background: black;
+        background: #01A3D4;
         color: #fff;
         text-align: center;
         -webkit-border-radius: 50%;
@@ -1322,8 +1322,11 @@ button:focus {
     }
 
 @media (max-width: 991px) {
-    #languages{
-        margin-left:0px !important;
+    #navbarSupportedContent{
+        padding-bottom:10px;
+    }
+    #languages {
+        margin-left: 0px !important;
     }
     .single-post-area .sidebar-widgets {
         padding-bottom: 0px;

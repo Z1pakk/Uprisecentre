@@ -26,13 +26,38 @@
         var targetUrlMask = string.Format("{0}/{{0}}{1}", hostRoot, targetPath);
         <li class="nav-item submenu dropdown" id="languages" >
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                @curLang
-                <span class="caret"></span>
+                @if (curLang == "en")
+                {
+                    <img src="~/Images/SiteImages/flags/english.png" />
+                }
+                @if (curLang == "ru")
+                {
+                    <img src="~/Images/SiteImages/flags/russia.png" />
+                }
+                @if (curLang == "uk")
+                {
+                    <img src="~/Images/SiteImages/flags/ukraine.png" />
+                } @curLang
             </a>
             <ul class="dropdown-menu">
                 @foreach (var lang in enabledLangsList)
                 {
-                    <li class="nav-item" style="overflow:hidden;"><a  class="nav-link" href="@(string.Format(targetUrlMask, lang))">@lang</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@(string.Format(targetUrlMask, lang))">
+                        @if (lang == "en")
+                        {
+                            <img src="~/Images/SiteImages/flags/english.png" />
+                        }
+                        @if (lang == "ru")
+                        {
+                            <img src="~/Images/SiteImages/flags/russia.png" />
+                        }
+                        @if (lang == "uk")
+                        {
+                            <img src="~/Images/SiteImages/flags/ukraine.png" />
+                        } @lang
+                    </a>
+                </li>
                 }
             </ul>
         </li>
@@ -104,7 +129,6 @@
         <button class="js-gotop"><i class="fa fa-lg fa-arrow-up" aria-hidden="true"></i></button>
     </div>
     @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/bundles/scripts")
     @RenderSection("scripts", required: false)
     @RenderSection("styles", required: false)
@@ -125,14 +149,6 @@
                 $('.gototop').removeClass("active");
                 return false;
             });
-        });
-        $(".navbar-toggler").click(function () {
-            if ($("#navbarSupportedContent").hasClass("show")) {
-                $("#navbarSupportedContent").removeClass("show");
-            }
-            else {
-                $("#navbarSupportedContent").addClass("show");
-            }
         });
     </script>
 </body>

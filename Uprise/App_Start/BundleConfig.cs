@@ -19,10 +19,9 @@ namespace Uprise
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js"));
             bundles.Add(new ScriptBundle("~/bundles/scripts").Include(
                     "~/Scripts/js/popper.js",
+                    "~/Scripts/bootstrap.min.js",
                     "~/Scripts/js/stellar.js",
                     "~/Scripts/fontawesome.min.js",
                     "~/Content/vendors/lightbox/simpleLightbox.min.js",
@@ -41,15 +40,11 @@ namespace Uprise
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css",
                       "~/Content/_about.css",
                       "~/Content/_courses.css",
                       "~/Content/_feature.css",
                       "~/Content/_price.css",
-                      "~/Content/responsive.css",
                       "~/Content/breadcrumb.css",
-                      "~/Content/style.css",
-                      "~/Content/fontawesome.min.css",
                       "~/Content/font-awesome.min.css",
                       "~/Content/aos.css",
                       "~/Content/vendors/owl-carousel/owl.carousel.min.css",
@@ -57,7 +52,10 @@ namespace Uprise
                       "~/Content/vendors/lightbox/simpleLightbox.css",
                       "~/Content/vendors/nice-select/css/nice-select.css",
                       "~/Content/vendors/animate-css/animate.css",
-                      "~/Content/vendors/popup/magnific-popup.css"
+                      "~/Content/vendors/popup/magnific-popup.css",
+                      "~/Content/Site.css",
+                      "~/Content/style.css",
+                      "~/Content/responsive.css"
                       ));
         }
     }
