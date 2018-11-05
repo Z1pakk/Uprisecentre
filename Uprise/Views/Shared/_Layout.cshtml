@@ -24,7 +24,7 @@
             Request.Url.Query);
         var hostRoot = string.Format("{0}://{1}", Request.Url.Scheme, Request.Url.Authority);
         var targetUrlMask = string.Format("{0}/{{0}}{1}", hostRoot, targetPath);
-        <li class="nav-item submenu dropdown" style="margin-left: 15px;">
+        <li class="nav-item submenu dropdown" id="languages" >
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 @curLang
                 <span class="caret"></span>
@@ -32,7 +32,7 @@
             <ul class="dropdown-menu">
                 @foreach (var lang in enabledLangsList)
                 {
-                    <li class="nav-item"><a  class="nav-link" href="@(string.Format(targetUrlMask, lang))">@lang</a></li>
+                    <li class="nav-item" style="overflow:hidden;"><a  class="nav-link" href="@(string.Format(targetUrlMask, lang))">@lang</a></li>
                 }
             </ul>
         </li>

@@ -376,6 +376,7 @@
     <Content Include="Images\SiteImages\gallery\teacher1.jpg" />
     <Content Include="Images\SiteImages\gallery\teacher2.jpg" />
     <Content Include="Images\SiteImages\gallery\teacher3.jpg" />
+    <Content Include="Images\SiteImages\gallery\teacher4.jpg" />
     <Content Include="Images\SiteImages\icon.ico" />
     <Content Include="Images\SiteImages\icon.png" />
     <Content Include="Images\SiteImages\icon\video-icon-1.png" />

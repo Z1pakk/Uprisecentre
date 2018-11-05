@@ -276,11 +276,16 @@ button:focus {
                 }
 
 @media (min-width: 992px) {
+    .header_area .navbar .nav .nav-item.submenu ul .nav-item {
+        margin-left: 0;
+        float: right;
+        right:0px;
+
+    }
     .header_area .navbar .nav .nav-item.submenu ul {
         position: absolute;
-        top: 120%;
-        left: 0px;
-        min-width: 200px;
+        float:right;
+        right: 0px;
         text-align: left;
         opacity: 0;
         transition: all 300ms ease-in;
@@ -1182,7 +1187,9 @@ button:focus {
     background-color: #4dbf1c;
     border-color: #eee;
 }
-
+#languages{
+    margin-left:15px;
+}
 /*============ Start Blog Single Styles  =============*/
 .single-post-area .social-links {
     padding-top: 10px;
@@ -1314,6 +1321,9 @@ button:focus {
     }
 
 @media (max-width: 991px) {
+    #languages{
+        margin-left:0px !important;
+    }
     .single-post-area .sidebar-widgets {
         padding-bottom: 0px;
     }
