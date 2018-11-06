@@ -3561,10 +3561,11 @@ team-i {
 }
 .programming_area .item .item-inner {
     background-color: #EEF3F6;
-    padding: 20px !important;
+    padding: 40px !important;
     height:100%;
 }
     .programming_area .item div{
+        padding:10px;
         font-size:18px !important;
     }
     .programming_area .item img {
@@ -3578,12 +3579,21 @@ team-i {
     {
         opacity:1 !important;
     }
-    /*----------------------------------------------------*/
-    /* Courses Area css
+
+.art_area img, .perpartoschool_area img{
+    width: 100%;
+    border-radius: 5px;
+}
+.english_area .about-img-1 {
+    border: 5px #EDEDED solid;
+    border-radius:5px;
+}
+/*----------------------------------------------------*/
+/* Courses Area css
 ============================================================================================ */
-    .courses_area {
-        overflow: hidden;
-    }
+.courses_area {
+    overflow: hidden;
+}
 .grid_inner {
     margin-left: -15px;
     margin-right: -15px;

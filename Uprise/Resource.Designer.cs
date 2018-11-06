@@ -449,6 +449,15 @@ namespace Uprise {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Маковецька Яна Петрівна.
+        /// </summary>
+        public static string Teacher17 {
+            get {
+                return ResourceManager.GetString("Teacher17", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Савчук Наталія Олександрівна.
         /// </summary>
         public static string Teacher2 {

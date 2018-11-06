@@ -127,32 +127,32 @@
     <value>Art-school</value>
   </data>
   <data name="City1" xml:space="preserve">
-    <value>m.Rivne street D.Galitskogo, 19, office 910
+    <value>Rivne city, street D.Galitskogo, 19, office 910
 (9th floor)</value>
   </data>
   <data name="City2" xml:space="preserve">
-    <value>m.Sarni street Shiroka, 1 (2nd floor)</value>
+    <value>Sarni city, street Shiroka, 1 (2nd floor)</value>
   </data>
   <data name="City3" xml:space="preserve">
     <value>Klesiv village, Tchaikovsky St., 1</value>
   </data>
   <data name="City4" xml:space="preserve">
-    <value>m.Rokitne street Shevchenko, 1 (dentistry room, 2nd floor)</value>
+    <value>Rokitne city, street Shevchenko, 1 (dentistry room, 2nd floor)</value>
   </data>
   <data name="City5" xml:space="preserve">
-    <value>Volodymyrets street Soborna 1 (cafe "Chile", 3rd floor)</value>
+    <value>Volodymyrets city, street Soborna 1 (cafe "Chile", 3rd floor)</value>
   </data>
   <data name="City6" xml:space="preserve">
-    <value>Dubrovytsia street, Poshtova, 2 (entrance from the side, 2nd floor)</value>
+    <value>Dubrovytsia city, street Poshtova, 2 (entrance from the side, 2nd floor)</value>
   </data>
   <data name="City7" xml:space="preserve">
-    <value>Varas district, Varas district, 43</value>
+    <value>Varas  city, Varas district, 43</value>
   </data>
   <data name="City8" xml:space="preserve">
-    <value>Berezne street Andriyevskaya, 15a (3rd floor)</value>
+    <value>Berezne city, street Andriyevskaya, 15a (3rd floor)</value>
   </data>
   <data name="City9" xml:space="preserve">
-    <value>Olevsk street Privokzalnaya, 8 (Life House, 3rd floor)</value>
+    <value>Olevsk city , street Privokzalnaya, 8 (Life House, 3rd floor)</value>
   </data>
   <data name="Contact" xml:space="preserve">
     <value>Contact</value>
@@ -246,6 +246,9 @@
   </data>
   <data name="Teacher16" xml:space="preserve">
     <value>Stelʹmakh Myroslava Vasylivna</value>
+  </data>
+  <data name="Teacher17" xml:space="preserve">
+    <value>Makovetska Yana Petrovna</value>
   </data>
   <data name="Teacher2" xml:space="preserve">
     <value>Savchuk Nataliya Oleksandrivna</value>
