@@ -35,11 +35,14 @@ namespace Uprise
                     "~/Content/vendors/counter-up/jquery.counterup.js",
                     "~/Scripts/js/mail-script.js",
                     "~/Scripts/js/theme.js",
-                    "~/Scripts/aos.js"
+                    "~/Scripts/aos.js",
+                    "~/Scripts/slick.min.js"
                 ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                       "~/Content/slick.css",
+                        "~/Content/slick-theme.css",
                       "~/Content/_about.css",
                       "~/Content/_courses.css",
                       "~/Content/_feature.css",
