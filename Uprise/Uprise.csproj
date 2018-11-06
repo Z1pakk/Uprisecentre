@@ -329,6 +329,10 @@
     <Content Include="Images\SiteImages\blog\post-img1.jpg" />
     <Content Include="Images\SiteImages\blog\post-img2.jpg" />
     <Content Include="Images\SiteImages\blog\prev.jpg" />
+    <Content Include="Images\SiteImages\childrensIMG\cheldren1.jpg" />
+    <Content Include="Images\SiteImages\childrensIMG\cheldren2.jpg" />
+    <Content Include="Images\SiteImages\childrensIMG\cheldren3.jpg" />
+    <Content Include="Images\SiteImages\childrensIMG\cheldren4.jpg" />
     <Content Include="Images\SiteImages\clients-logo\c-logo-1.png" />
     <Content Include="Images\SiteImages\clients-logo\c-logo-2.png" />
     <Content Include="Images\SiteImages\clients-logo\c-logo-3.png" />
