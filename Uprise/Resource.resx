@@ -223,6 +223,60 @@
   <data name="SendMessage" xml:space="preserve">
     <value>Відправ нам лист в любий час</value>
   </data>
+  <data name="Teacher1" xml:space="preserve">
+    <value>Лісничик Ольга Сергіївна</value>
+  </data>
+  <data name="Teacher10" xml:space="preserve">
+    <value>Козел Жанна Петрівна</value>
+  </data>
+  <data name="Teacher11" xml:space="preserve">
+    <value>Скобайло Любов Романівна</value>
+  </data>
+  <data name="Teacher12" xml:space="preserve">
+    <value>Балаушко Юлія Василівна</value>
+  </data>
+  <data name="Teacher13" xml:space="preserve">
+    <value>Корнелюк Леся Миколаївна</value>
+  </data>
+  <data name="Teacher14" xml:space="preserve">
+    <value>Кахан Любов Володимирівна</value>
+  </data>
+  <data name="Teacher15" xml:space="preserve">
+    <value>Паньковець Ірина Леонідівна</value>
+  </data>
+  <data name="Teacher16" xml:space="preserve">
+    <value>Стельмах Мирослава Василівна</value>
+  </data>
+  <data name="Teacher2" xml:space="preserve">
+    <value>Савчук Наталія Олександрівна</value>
+  </data>
+  <data name="Teacher3" xml:space="preserve">
+    <value>Ганчук Антоніна Миколаївна</value>
+  </data>
+  <data name="Teacher4" xml:space="preserve">
+    <value>Юсенко Катерина Іванівна</value>
+  </data>
+  <data name="Teacher5" xml:space="preserve">
+    <value>Шиш Тетяна Валеріївна</value>
+  </data>
+  <data name="Teacher6" xml:space="preserve">
+    <value>Харипончук Лілія Володимирівна</value>
+  </data>
+  <data name="Teacher7" xml:space="preserve">
+    <value>Турлай Адріана Ігорівна</value>
+  </data>
+  <data name="Teacher8" xml:space="preserve">
+    <value>Косовська Тетяна  Ігорівна</value>
+  </data>
+  <data name="Teacher9" xml:space="preserve">
+    <value>Наумчук Юлія Олегівна</value>
+  </data>
+  <data name="TeacherArtTitle" xml:space="preserve">
+    <value>Викладач художнього класу</value>
+  </data>
+  <data name="TeacherEnglishTitle" xml:space="preserve">
+    <value>Викладач англійської мови</value>
+  </data>
   <data name="Teachers" xml:space="preserve">
     <value>Наші викладачі</value>
   </data>

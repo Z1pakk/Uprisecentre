@@ -223,6 +223,60 @@
   <data name="SendMessage" xml:space="preserve">
     <value>Отправь нам письмо в любое время</value>
   </data>
+  <data name="Teacher1" xml:space="preserve">
+    <value>Лисничик Ольга Сергеевна</value>
+  </data>
+  <data name="Teacher10" xml:space="preserve">
+    <value>Козел Жанна Петровна</value>
+  </data>
+  <data name="Teacher11" xml:space="preserve">
+    <value>Скобайло Любовь Романовна</value>
+  </data>
+  <data name="Teacher12" xml:space="preserve">
+    <value>Балаушко Юлия Васильевна</value>
+  </data>
+  <data name="Teacher13" xml:space="preserve">
+    <value>Корнелюк Леся Николаевна</value>
+  </data>
+  <data name="Teacher14" xml:space="preserve">
+    <value>Кахана Любовь Владимировна</value>
+  </data>
+  <data name="Teacher15" xml:space="preserve">
+    <value>Паньковець Ирина Леонидовна</value>
+  </data>
+  <data name="Teacher16" xml:space="preserve">
+    <value>Стельмах Мирослава Васильевна</value>
+  </data>
+  <data name="Teacher2" xml:space="preserve">
+    <value>Савчук Наталья Александровна</value>
+  </data>
+  <data name="Teacher3" xml:space="preserve">
+    <value>Ганчук Антонина Николаевна</value>
+  </data>
+  <data name="Teacher4" xml:space="preserve">
+    <value>Юсенко Екатерина Ивановна</value>
+  </data>
+  <data name="Teacher5" xml:space="preserve">
+    <value>Шиш Татьяна Валерьевна</value>
+  </data>
+  <data name="Teacher6" xml:space="preserve">
+    <value>Харипончук Лилия Владимировна</value>
+  </data>
+  <data name="Teacher7" xml:space="preserve">
+    <value>Турлай Адриана Игоревна</value>
+  </data>
+  <data name="Teacher8" xml:space="preserve">
+    <value>Косовская Татьяна Игоревна</value>
+  </data>
+  <data name="Teacher9" xml:space="preserve">
+    <value>Наумчук Юлия Олеговна</value>
+  </data>
+  <data name="TeacherArtTitle" xml:space="preserve">
+    <value>Преподаватель художественного класса</value>
+  </data>
+  <data name="TeacherEnglishTitle" xml:space="preserve">
+    <value>Преподаватель английского языка</value>
+  </data>
   <data name="Teachers" xml:space="preserve">
     <value>Наши преподаватели</value>
   </data>

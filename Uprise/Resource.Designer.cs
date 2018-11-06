@@ -377,6 +377,168 @@ namespace Uprise {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Лісничик Ольга Сергіївна.
+        /// </summary>
+        public static string Teacher1 {
+            get {
+                return ResourceManager.GetString("Teacher1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Козел Жанна Петрівна.
+        /// </summary>
+        public static string Teacher10 {
+            get {
+                return ResourceManager.GetString("Teacher10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Скобайло Любов Романівна.
+        /// </summary>
+        public static string Teacher11 {
+            get {
+                return ResourceManager.GetString("Teacher11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Балаушко Юлія Василівна.
+        /// </summary>
+        public static string Teacher12 {
+            get {
+                return ResourceManager.GetString("Teacher12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Корнелюк Леся Миколаївна.
+        /// </summary>
+        public static string Teacher13 {
+            get {
+                return ResourceManager.GetString("Teacher13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Кахан Любов Володимирівна.
+        /// </summary>
+        public static string Teacher14 {
+            get {
+                return ResourceManager.GetString("Teacher14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Паньковець Ірина Леонідівна.
+        /// </summary>
+        public static string Teacher15 {
+            get {
+                return ResourceManager.GetString("Teacher15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Стельмах Мирослава Василівна.
+        /// </summary>
+        public static string Teacher16 {
+            get {
+                return ResourceManager.GetString("Teacher16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Савчук Наталія Олександрівна.
+        /// </summary>
+        public static string Teacher2 {
+            get {
+                return ResourceManager.GetString("Teacher2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ганчук Антоніна Миколаївна.
+        /// </summary>
+        public static string Teacher3 {
+            get {
+                return ResourceManager.GetString("Teacher3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Юсенко Катерина Іванівна.
+        /// </summary>
+        public static string Teacher4 {
+            get {
+                return ResourceManager.GetString("Teacher4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Шиш Тетяна Валеріївна.
+        /// </summary>
+        public static string Teacher5 {
+            get {
+                return ResourceManager.GetString("Teacher5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Харипончук Лілія Володимирівна.
+        /// </summary>
+        public static string Teacher6 {
+            get {
+                return ResourceManager.GetString("Teacher6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Турлай Адріана Ігорівна.
+        /// </summary>
+        public static string Teacher7 {
+            get {
+                return ResourceManager.GetString("Teacher7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Косовська Тетяна  Ігорівна.
+        /// </summary>
+        public static string Teacher8 {
+            get {
+                return ResourceManager.GetString("Teacher8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Наумчук Юлія Олегівна.
+        /// </summary>
+        public static string Teacher9 {
+            get {
+                return ResourceManager.GetString("Teacher9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Викладач художнього класу.
+        /// </summary>
+        public static string TeacherArtTitle {
+            get {
+                return ResourceManager.GetString("TeacherArtTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Викладач англійської мови.
+        /// </summary>
+        public static string TeacherEnglishTitle {
+            get {
+                return ResourceManager.GetString("TeacherEnglishTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Наші викладачі.
         /// </summary>
         public static string Teachers {

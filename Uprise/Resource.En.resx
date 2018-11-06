@@ -223,6 +223,60 @@
   <data name="SendMessage" xml:space="preserve">
     <value>Send us a letter at any time</value>
   </data>
+  <data name="Teacher1" xml:space="preserve">
+    <value>Lisnychyk Olʹha Serhiyivna</value>
+  </data>
+  <data name="Teacher10" xml:space="preserve">
+    <value>Kozel Zhanna Petrivna</value>
+  </data>
+  <data name="Teacher11" xml:space="preserve">
+    <value>Skobaylo Lyubov Romanivna</value>
+  </data>
+  <data name="Teacher12" xml:space="preserve">
+    <value>Balaushko Yuliya Vasylivna</value>
+  </data>
+  <data name="Teacher13" xml:space="preserve">
+    <value>Kornelyuk Lesya Mykolayivna</value>
+  </data>
+  <data name="Teacher14" xml:space="preserve">
+    <value>Kakhan Lyubov Volodymyrivna</value>
+  </data>
+  <data name="Teacher15" xml:space="preserve">
+    <value>Panʹkovetsʹ Iryna Leonidivna</value>
+  </data>
+  <data name="Teacher16" xml:space="preserve">
+    <value>Stelʹmakh Myroslava Vasylivna</value>
+  </data>
+  <data name="Teacher2" xml:space="preserve">
+    <value>Savchuk Nataliya Oleksandrivna</value>
+  </data>
+  <data name="Teacher3" xml:space="preserve">
+    <value>Hanchuk Antonina Mykolayivna</value>
+  </data>
+  <data name="Teacher4" xml:space="preserve">
+    <value>Yusenko Kateryna Ivanivna</value>
+  </data>
+  <data name="Teacher5" xml:space="preserve">
+    <value>Shysh Tetyana Valeriyivna</value>
+  </data>
+  <data name="Teacher6" xml:space="preserve">
+    <value>Kharyponchuk Liliya Volodymyrivna</value>
+  </data>
+  <data name="Teacher7" xml:space="preserve">
+    <value>Turlay Adriana Ihorivna</value>
+  </data>
+  <data name="Teacher8" xml:space="preserve">
+    <value>Kosovsʹka Tetyana Ihorivna</value>
+  </data>
+  <data name="Teacher9" xml:space="preserve">
+    <value>Naumchuk Yuliya Olehivna</value>
+  </data>
+  <data name="TeacherArtTitle" xml:space="preserve">
+    <value>Teacher of artistic class</value>
+  </data>
+  <data name="TeacherEnglishTitle" xml:space="preserve">
+    <value>Teacher of English language</value>
+  </data>
   <data name="Teachers" xml:space="preserve">
     <value>Our Teachers</value>
   </data>
