@@ -347,6 +347,7 @@
     <Content Include="Images\SiteImages\courses\course-4.jpg" />
     <Content Include="Images\SiteImages\courses\course-5.jpg" />
     <Content Include="Images\SiteImages\courses\course-details.jpg" />
+    <Content Include="Images\SiteImages\courses\program\beginner.png" />
     <Content Include="Images\SiteImages\desktop.png" />
     <Content Include="Images\SiteImages\elements\a.jpg" />
     <Content Include="Images\SiteImages\elements\a2.jpg" />
@@ -398,6 +399,13 @@
     <Content Include="Images\SiteImages\gallery\g8.jpg" />
     <Content Include="Images\SiteImages\gallery\g9.jpg" />
     <Content Include="Images\SiteImages\gallery\teacher1.jpg" />
+    <Content Include="Images\SiteImages\gallery\teacher10.jpg" />
+    <Content Include="Images\SiteImages\gallery\teacher11.jpg" />
+    <Content Include="Images\SiteImages\gallery\teacher12.jpg" />
+    <Content Include="Images\SiteImages\gallery\teacher13.jpg" />
+    <Content Include="Images\SiteImages\gallery\teacher14.jpg" />
+    <Content Include="Images\SiteImages\gallery\teacher15.jpg" />
+    <Content Include="Images\SiteImages\gallery\teacher16.jpg" />
     <Content Include="Images\SiteImages\gallery\teacher2.jpg" />
     <Content Include="Images\SiteImages\gallery\teacher3.jpg" />
     <Content Include="Images\SiteImages\gallery\teacher4.jpg" />

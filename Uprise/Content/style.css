@@ -3504,11 +3504,14 @@ team-i {
 
             .team_item .team_img .hover a {
                 font-size: 14px;
+                
                 color: #777777;
                 margin-right: 20px;
                 transition: all 300ms linear 0s;
             }
-
+                .team_item .team_img .hover a:first-child {
+                    margin-left: 10%;
+                }
                 .team_item .team_img .hover a:last-child {
                     margin-right: 0px;
                 }
@@ -3553,13 +3556,34 @@ team-i {
 /* End Team Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Courses Area css
-============================================================================================ */
-.courses_area {
-    overflow: hidden;
+.programming_area .item {
+    padding-top: 30px;
 }
-
+.programming_area .item .item-inner {
+    background-color: #EEF3F6;
+    padding: 20px !important;
+    height:100%;
+}
+    .programming_area .item div{
+        font-size:18px !important;
+    }
+    .programming_area .item img {
+        display: block;
+        margin: auto
+    }
+.programming_area .item h3{
+    font-family:Tahoma;
+}
+    .programming_area .item .progplan:hover
+    {
+        opacity:1 !important;
+    }
+    /*----------------------------------------------------*/
+    /* Courses Area css
+============================================================================================ */
+    .courses_area {
+        overflow: hidden;
+    }
 .grid_inner {
     margin-left: -15px;
     margin-right: -15px;
