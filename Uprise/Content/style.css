@@ -3471,7 +3471,9 @@ h6 {
             left: 0px;
             top: 0px;
             height: 100%;
-            width: 100%;
+            width: 90%;
+            max-width:280px;
+            margin:auto;
             opacity: 0;
             transition: all 300ms ease;
             border-radius: 50%;
