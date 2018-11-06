@@ -396,10 +396,8 @@ namespace Uprise {
         
         /// <summary>
         ///   Looks up a localized string similar to це - мережа освітніх центрів, яка включає в себе різні напрямки освіти відповідно до вимог сучасного світу. На даний момент ми присутні у 9 містах, але наша кількість &lt;strong&gt;постійно динамічно зростає .&lt;/strong&gt;
-        ///     Девіз нашої мережі - &quot;Давайте зростати разом! Ваші можливості - безмежні.
-        ///     Наша мета - підняття загального освітнього та культурного рівня дітей та дорослих в регіонах. А також &lt;strong&gt;навчити використовувати сучасні інструменти&lt;/strong&gt; в досягненні своєї мети.&quot;
-        ///
-        ///Коли вчитися цікаво т [rest of string was truncated]&quot;;.
+        ///     &lt;br/&gt; &amp;#160; &amp;#160; &amp;#160; Девіз нашої мережі - &quot;Давайте зростати разом! Ваші можливості - безмежні.
+        ///     &lt;br/&gt; &amp;#160; &amp;#160; &amp;#160;Наша мета - підняття загального освітнього та культурного рівня дітей та дорослих в регіонах. А також &lt;strong&gt;навчити використовувати сучасні інструменти&lt;/stron [rest of string was truncated]&quot;;.
         /// </summary>
         public static string TextCenter {
             get {
@@ -458,6 +456,51 @@ namespace Uprise {
         public static string TitleCourses1 {
             get {
                 return ResourceManager.GetString("TitleCourses1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Англійська для дорослих.
+        /// </summary>
+        public static string TitleEngish4 {
+            get {
+                return ResourceManager.GetString("TitleEngish4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Англійська для будь-якого віку.
+        /// </summary>
+        public static string TitleEnglish {
+            get {
+                return ResourceManager.GetString("TitleEnglish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Дітей молодшого шкільного віку (1-4 клас).
+        /// </summary>
+        public static string TitleEnglish1 {
+            get {
+                return ResourceManager.GetString("TitleEnglish1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Для дітей дошкільного віку(4-6 років).
+        /// </summary>
+        public static string TitleEnglish2 {
+            get {
+                return ResourceManager.GetString("TitleEnglish2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Підготовка дітей до ЗНО (9-11 клас).
+        /// </summary>
+        public static string TitleEnglish3 {
+            get {
+                return ResourceManager.GetString("TitleEnglish3", resourceCulture);
             }
         }
         

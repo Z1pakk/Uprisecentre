@@ -231,8 +231,8 @@
   </data>
   <data name="TextCenter" xml:space="preserve">
     <value>it is a network of educational centers, which includes different directions of education in accordance with the requirements of the modern world. We are currently present in 9 cities, but our number &lt;strong&gt; is constantly growing dynamically. &lt;/strong&gt;
-     The motto of our network is "Let's grow together! Your opportunities are endless.
-     Our goal is to raise the general educational and cultural level of children and adults in the regions. And also &lt;strong&gt; teach you to use modern tools &lt;/strong&gt; to achieve your goal. "
+     &lt;br/&gt; &amp;#160; &amp;#160; &amp;#160;\The motto of our network is "Let's grow together! Your opportunities are endless.
+     &lt;br/&gt; &amp;#160; &amp;#160; &amp;#160; Our goal is to raise the general educational and cultural level of children and adults in the regions. And also &lt;strong&gt; teach you to use modern tools &lt;/strong&gt; to achieve your goal. "
 
 &lt;/strong&gt; When learning exciting and comfortable, the learning outcomes are positive and visible! &lt;/ strong&gt;</value>
   </data>
@@ -253,6 +253,21 @@
   </data>
   <data name="TitleCourses1" xml:space="preserve">
     <value>Our courses</value>
+  </data>
+  <data name="TitleEngish4" xml:space="preserve">
+    <value>English for adults</value>
+  </data>
+  <data name="TitleEnglish" xml:space="preserve">
+    <value>English for all ages</value>
+  </data>
+  <data name="TitleEnglish1" xml:space="preserve">
+    <value>Children of junior school age (grades 1-4)</value>
+  </data>
+  <data name="TitleEnglish2" xml:space="preserve">
+    <value>For preschool children (4-6 years)</value>
+  </data>
+  <data name="TitleEnglish3" xml:space="preserve">
+    <value>Preparing Children for External Learning (Grades 9-11)</value>
   </data>
   <data name="TitleTeam1" xml:space="preserve">
     <value>A team of professionals who faithfully perform their work. Have a great experience in working with children and adults.</value>
