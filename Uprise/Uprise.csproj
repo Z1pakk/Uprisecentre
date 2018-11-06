@@ -256,6 +256,9 @@
     <Content Include="Content\breadcrumb.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\fontawesome.min.css" />
+    <Content Include="Content\fonts\slick.svg" />
+    <Content Include="Content\slick-theme.css" />
+    <Content Include="Content\slick.css" />
     <Content Include="Content\toastr.min.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Content\responsive.css" />
@@ -398,6 +401,9 @@
     <Content Include="Images\SiteImages\gallery\teacher2.jpg" />
     <Content Include="Images\SiteImages\gallery\teacher3.jpg" />
     <Content Include="Images\SiteImages\gallery\teacher4.jpg" />
+    <Content Include="Images\SiteImages\gallery\teacher5.jpg" />
+    <Content Include="Images\SiteImages\gallery\teacher6.jpg" />
+    <Content Include="Images\SiteImages\gallery\teacher7.jpg" />
     <Content Include="Images\SiteImages\icon.ico" />
     <Content Include="Images\SiteImages\icon.png" />
     <Content Include="Images\SiteImages\icon\video-icon-1.png" />
@@ -457,6 +463,9 @@
     <Content Include="webfonts\fa-light-300.svg" />
     <Content Include="webfonts\fa-regular-400.svg" />
     <Content Include="webfonts\fa-solid-900.svg" />
+    <Content Include="Content\fonts\slick.eot" />
+    <Content Include="Content\fonts\slick.ttf" />
+    <Content Include="Content\fonts\slick.woff" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
